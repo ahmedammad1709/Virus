@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: lime;
+    font-family: monospace;
+    overflow: hidden;
+}
+
+#screen {
+    padding: 20px;
+}
+
+#terminal {
+    white-space: pre-wrap;
+    font-size: 16px;
+    line-height: 1.4;
+}
