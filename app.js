@@ -10,7 +10,7 @@ let lines = [
     "Downloading files...",
     "Injecting trojan...",
     "Uploading data to Ammad's server...",
-    "SYSTEM BREACH INITIATED 💀",
+    "SYSTEM BREACH INITIATED ",
     "Erasing system files...",
     "Corrupting OS...",
     "Finalizing destruction...",
