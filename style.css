@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-color: black;
-    color: lime;
+    color: #00ff00;
     font-family: monospace;
     overflow: hidden;
 }
@@ -14,4 +14,35 @@ body {
     white-space: pre-wrap;
     font-size: 16px;
     line-height: 1.4;
+    min-height: 70vh;
+}
+
+#progressContainer {
+    width: 100%;
+    background-color: #333;
+    margin-top: 20px;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#progressBar {
+    height: 100%;
+    width: 0%;
+    background: lime;
+    transition: width 0.5s ease;
+}
+
+.flash {
+    animation: flashBG 0.3s alternate infinite;
+}
+
+@keyframes flashBG {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: black;
+    }
 }
